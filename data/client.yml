@@ -1,0 +1,14 @@
+enable  : true
+title   : MARCAS QUE DISTRIBUIMOS
+subtitle: CONTAMOS CON LA REPRESENTACION ESCLUSIVA DE LAS SIGUIENTES MARCAS.
+clientsLogo:
+  - image : images/clients/logo-1.jpg
+  - image : images/clients/logo-2.jpg
+  - image : images/clients/logo-3.jpg
+  - image : images/clients/logo-4.jpg
+  - image : images/clients/logo-5.jpg
+  - image : images/clients/logo-1.jpg
+  - image : images/clients/logo-2.jpg
+  - image : images/clients/logo-3.jpg
+  - image : images/clients/logo-4.jpg
+  - image : images/clients/logo-5.jpg

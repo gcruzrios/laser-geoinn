@@ -1,0 +1,34 @@
+enable  : true
+title   : Nuestra oferta de servicios
+subtitle: >
+  Ofrecemos una serie de ventajas en los servicios que brindamos, <br> nuestra experiencia más que comprobada.
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Media heading
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-checkmark-outline
+    title : Well documented.
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-alarm-outline 
+    title : Free updates
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-barcode-outline
+    title : Simple Installation
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  
+  - icon  : ion-ios-lightbulb-outline
+    title : Well documented.
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
