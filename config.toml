@@ -1,0 +1,87 @@
+baseURL = "https://www.geoinn.com/"
+languageCode = "en-us"
+title = "GEOINN| Productos y servicios del escaneo láser"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Escaneo Láser"
+        url     = "/escaneo"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Modelado BIM"
+        url     = "/modelado"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Recolección de Datos"
+        url     = "/recoleccion"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Contáctenos"
+        url     = "https://www.geoinn.com/contactenos"
+        weight  = 5
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo-color.png"
+    dateFormat = "6 January 2006"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "Servicios y productos de escaneo"
+        description = "Ofrecemos nuevas aplicaciones prácticas del escaneo 3D."
+        btn     = true
+        btnText = "Conocer más"
+        btnURL  = "https://laser.geoinn.com/"
+        [[params.banner.flipText]]
+            title   = "Escaneo laser 3D"
+        [[params.banner.flipText]]
+            title   = "Modelado BIM"
+        [[params.banner.flipText]]
+            title   = "Análisis de Datos"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Servicios Modelación de nubes de puntos (Scan to BIM)"
+        content = "GEOINN AECO utiliza escáneres de última generación como un conjunto fijo de vectores o puntos de datos en el espacio 3D que representan la geometría externa y el color de la infraestructura edificio, calle, planta. <br><br>  Nuestra mano de obra calificada utiliza escaneo preciso a datos BIM (Modelado de Información de Edificios, por sus siglas en inglés)  y lo convierte en modelos BIM bien definidos e inteligentes. Cada detalle del edificio se captura a través de un único escaneo, lo que elimina la necesidad de visitas frecuentes al sitio. <br><br>  Como proveedor de soluciones Point Cloud Modeling, nuestros especialistas de BIM compilan datos complejos y los convierten en flujo de trabajo de inteligencia de la construcción para arquitectos, contratistas generales, contratistas civiles e ingenieros."
+        subcontent = "<br><br><br>Nuestros servicios clave de modelación de nubes de puntos (Point Cloud Modeling) incluyen:"
+        image   = "images/escaneo/about.jpg"
+        lista   = "Modelado de nubes de puntos para proyectos de renovación y remodelación. <br> Reformas de edificios <br> Demolición del edificio <br> Gestión de instalaciones  <br> Modelado de nubes de puntos para ahorrar tiempo y costo <br> Aprovechar al máximo retorno de la inversión (ROI) <br> Tiempos de respuesta rápidos del proyecto <br> Servicios de escaneo a programas de modelado BIM <br> Nubes de punto a 4D, 5D y 6D BIM "
+
+        title2   = "Servicios de Escaner 3D"
+        content2 = "Geoinn AECO proporciona servicios y soluciones de alta precisión llave en mano con capturas 3D en tiempo real para que los clientes aprovechen mejor los diseños, documentos y tecnología de construcción. <br><br> Hemos redefinido la dinámica de la recopilación de información a través del escaneo láser de última generación de edificios y estructuras de cualquier tamaño, a la vez que mejoramos la precisión y optimizamos los costos de construcción. La industria de Arquitectura, Ingeniería, Construcciones y Operaciones (AECO por sus siglas en inglés) puede aprovechar el poder de los servicios de escaneo 3D al capturar las entidades de construcción del mundo real y reproducirlas a través de modelos precisos de nubes de puntos en 3D."
+        subcontent2 = "<br><br><br><br>Nuestros servicios clave de escaneo 3D incluyen: "
+        lista2   = " Documentando estructuras As-Built (como quedó construido) para la arquitectura como interiores, monumentos históricos y fachadas de edificios<br>Dimensionamiento horizontal y vertical <br>Análisis de textura de superficie a través del modelo mapeado en color 3D <br>Análisis de Seguridad y Constructabilidad <br>BIM y entregables en 3D"
+
+
+
+
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "Le interesan nuestros servicios  ?"
+        content = "Concertamos una cita y pueden ver de primera mano las diferentes alternativas para el servicio de escaneo y modelado láser."
+        btnText = "Contáctenos"
+        btnURL  = "https://www.geoinn.com/contactenos"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Aplicaciones prácticas de escaneo 3D"
+        subtitle= "Algunos ejemplos de las aplicaciones prácticas de los servicios de Escaneo 3D y modelado BIM."
+
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = true
+        title   = "Algunos ejemplos de trabajos realizados"
+        subtitle= "Tenemos varias experiencias éxitosas que podemos compartir si desea más información."
+
+    
