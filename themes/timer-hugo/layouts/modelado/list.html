@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.about.enable }}
+{{ "<!-- Company Description Section Start -->" | safeHTML }}
+<section class="company-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+                {{ with .Site.Data.service.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Data.service.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
+                    {{ with .Site.Data.service.description }}
+                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+                        {{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Service Section End -->" | safeHTML }}
+{{ end }}
+
+{{ partial "clients.html" . }}
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
